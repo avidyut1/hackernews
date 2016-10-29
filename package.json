@@ -1,0 +1,21 @@
+{
+  "name": "hackernews",
+  "version": "1.0.0",
+  "description": "read hackernews post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashesh Vidyut",
+  "license": "ISC",
+  "bin": {
+    "hackernews": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0",
+    "path": "^0.12.7",
+    "request": "^2.76.0"
+  }
+}
